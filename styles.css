@@ -42,7 +42,7 @@ html {
     text-align: left;
     margin-top: 20px;
     font-size: 14px;
-    color: #0066cc;
+    color: white;
     text-decoration: none;
 }
 a
@@ -56,9 +56,9 @@ a
 section {
     margin-bottom: 30px;
     padding: 20px;
-    background-color: #c0ceca;
+    background-color: lightgrey;
     border-radius: 10px;
-    border: 2px solid rgba(170, 221, 170, 0.867);
+    border: 2px solid black;
 }
 /* Add custom styling for the links to reveal sections */
 .section-link {
@@ -73,7 +73,7 @@ section {
     text-decoration: underline;
 }
 .flashing-banner {
-background-color: #6289c0; /* Red background */
+background-color: gray; /* Red background */
 color: #fff; /* White text */
 text-align: center;
 padding: 20px;
@@ -91,3 +91,40 @@ animation: flash 2s infinite; /* Animation applied */
         opacity: 0; /* Invisible */
     }
 }
+/* Reset margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ensure the body takes full height */
+body, html {
+    height: 100%;
+}
+
+/* Main content styles */
+.content {
+    text-align: center;
+    padding: 20px;
+    min-height: 80vh;  /* Give space to content before the footer */
+}
+
+/* Full-Width Footer */
+.footer {
+    background-color: #333;   /* Dark background */
+    color: white;             /* White text */
+    text-align: center;       /* Center content */
+    padding: 20px 0;          /* Vertical padding */
+    width: 100%;              /* Full width of the viewport */
+    position: absolute;       /* Position at the bottom */
+    bottom: 0;                /* Stick to the bottom of the page */
+}
+
+/* Optional: Adding hover effect on footer text */
+.footer p:hover {
+    color: #007bff;           /* Change text color on hover */
+}
+
+
+
