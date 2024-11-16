@@ -6,11 +6,11 @@ This repository contains the live working of open data ecosystem framework and s
 <br>
 Steps followed to make this prototype: 
 
-1. Complete the Open Data Ecosystems Framework Map
-2. Generate the image map using https://www.image-map.net/
-3. Create HTML file
-4. Make a GitHub Repository and upload the project
-5. Make it live
+1. Completed the Open Data Ecosystems Framework Map
+2. Generated the image map using https://www.image-map.net/
+3. Created HTML, CSS, and Javescript file
+4. Made a GitHub Repository and uploaded the project
+5. Made it live
 
 
 * For further details related to ODECO Project visit our website: https://odeco-research.eu/
