@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    margin: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+p
+{
+    text-align: left;
+}
+section {
+    margin: 50px;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+h2 {
+    text-align: left;
+    color: #333;
+}
+
+/* Smooth scroll for anchor links */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Back to top link */
+.back-to-top {
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #0066cc;
+    text-decoration: none;
+}
+a
+{
+    text-align: left;
+}
+.back-to-top:hover {
+    text-decoration: underline;
+}
+/* Sections styling */
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #c0ceca;
+    border-radius: 10px;
+    border: 2px solid rgba(170, 221, 170, 0.867);
+}
+/* Add custom styling for the links to reveal sections */
+.section-link {
+    display: block;
+    margin: 15px;
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section-link:hover {
+    text-decoration: underline;
+}
+.flashing-banner {
+background-color: #6289c0; /* Red background */
+color: #fff; /* White text */
+text-align: center;
+padding: 20px;
+font-size: 24px;
+font-weight: bold;
+animation: flash 2s infinite; /* Animation applied */
+}
+
+/* Keyframes for flashing effect */
+@keyframes flash {
+    0%, 100% {
+        opacity: 1; /* Fully visible */
+    }
+    50% {
+        opacity: 0; /* Invisible */
+    }
+}
