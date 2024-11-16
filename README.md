@@ -10,3 +10,12 @@ Steps followed to make this prototype:
 3. Create HTML file
 4. Make a GitHub Repository and upload the project
 5. Make it live
+
+
+
+1. First item
+2. Second item
+3. Third item
+   1. Sub-item 1
+   2. Sub-item 2
+4. Fourth item
