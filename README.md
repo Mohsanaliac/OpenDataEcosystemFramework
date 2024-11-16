@@ -1,0 +1,1 @@
+This repository contains the live working of open data ecosystem framework and stratgies at different level of details: top level, second-level, and so on. This will help the readers to understand visually open data ecosystem and its elements in detail. 
