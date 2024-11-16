@@ -11,3 +11,7 @@ Steps followed to make this prototype:
 3. Create HTML file
 4. Make a GitHub Repository and upload the project
 5. Make it live
+
+
+* For further details related to ODECO Project visit our website: https://odeco-research.eu/
+* Find our Zenodo repository: https://zenodo.org/communities/odeco-research/records?q=&l=list&p=1&s=10&sort=newest
