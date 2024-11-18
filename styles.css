@@ -76,7 +76,8 @@ section {
 background-color: gray; /* Red background */
 color: #fff; /* White text */
 text-align: center;
-padding: 20px;
+padding:0px;
+margin-left: 30px;
 font-size: 24px;
 font-weight: bold;
 animation: flash 2s infinite; /* Animation applied */

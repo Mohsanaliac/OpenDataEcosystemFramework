@@ -32,7 +32,7 @@
     <div id="top" class="container">
         <!-- Image and Image Map -->
         <div class="container containter-dark">
-            <h2 style="text-align: left;">Open Data Ecosystem Framework and Strategies (Top-Level)</h2>
+            <!-- <h4 style="text-align: left;">Open Data Ecosystem Framework and Strategies (Top-Level)</h4> -->
             <!-- Flashing Banner -->
         </div>
         <div class="flashing-banner">
@@ -50,9 +50,10 @@
             <area target="_self" alt="Producer's stakeholders groups" title="Producer's stakeholders groups" href="#Producers" coords="365,357,78" shape="circle" onclick="openPopup('Producers')">
             <area target="_self" alt="Infomediaries" title="Infomediaries" href="#Infomediaries" coords="647,353,78" shape="circle" onclick="openPopup('Infomediaries')">
             <area target="_self" alt="Users stakeholders" title="Users stakeholders" href="#Users" coords="927,350,76" shape="circle" onclick="openPopup('Users')">
-            <area target="_self" alt="#Data4AI" title="#Data4AI" href="#NewConceptData4AI" coords="1158,651,1156,424,1171,422,1172,650" shape="poly" onclick="openPopup('NewConceptData4AI')">
+            <area target="_self" alt="#ProvisionToUsage" title="#ProvisionToUsage" href="#ProvisionToUsage" coords="1158,651,1156,424,1171,422,1172,650" shape="poly" onclick="openPopup('ProvisionToUsage')">
             <area target="_self" alt="DataExchange" title="DataExchange" href="#DataExchange" coords="114,641,1158,642,115,652,1157,651" shape="poly" onclick="openPopup('DataExchange')">
-            <area target="_self" alt="Open data provision to usage" title="Open data provision to usage" href="#DataprovisiontoUsage" coords="111,426,123,425,119,652,110,650" shape="poly" onclick="openPopup('DataprovisiontoUsage')">
+            <area target="_self" alt="Open data provision to usage" title="Open data provision to usage" href="#DataExchange" coords="111,426,123,425,119,652,110,650" shape="poly" onclick="openPopup('DataprovisiontoUsage')">
+            <area target="_self" alt="DataProvisionToUsage" title="DataProvisionToUsage" href="#DataProvisionToUsage" coords="114,643,1169,654" shape="rect" onclick="openPopup('DataprovisiontoUsage')">
             <area target="_self" alt="Value Co Creation Impact and innovation" title="Value Co Creation Impact and innovation" href="#ValueCoCreation" coords="425,619,846,644" shape="rect" onclick="openPopup('ValueCoCreation')">
             <area target="_self" alt="Collaboration and Network Effect" title="Collaboration and Network Effect" href="#CollaborationNetworkEffect" coords="243,433,1049,480" shape="rect" onclick="openPopup('CollaborationNetworkEffect')">
             <area target="_self" alt="Value arrow" title="Value arrow" href="#ValueArrow" coords="340,486,390,639" shape="rect" onclick="openPopup('ValueArrow')">
@@ -70,19 +71,20 @@
             <area target="_self" alt="Governance of open data" title="Governance of open data" href="#Governance" coords="849,16,1015,59" shape="rect" onclick="openPopup('Governance')">
             <area target="_self" alt="Value of Open data" title="Value of Open data" href="#Value" coords="1033,12,1267,58" shape="rect" onclick="openPopup('Value')">
             <area target="_self" alt="AI for Data" title="AI for Data" href="#AI4Data" coords="1007,119,1157,172" shape="rect" onclick="openPopup('AI4Data')">
-            <area target="_self" alt="DATA Exchange2" title="DATA Exchange2" href="#DATAExchange2" coords="125,119,267,173" shape="rect" onclick="openPopup('DATAExchange2')">
-            <area target="_blank" alt="Feedback Evaluation and Redefinition" title="Feedback Evaluation and Redefinition" href="#feedback" coords="456,77,837,102" shape="rect" onclick="openPopup('feedback')">
+            <area target="_self" alt="DrivingForceDataQuality" title="DrivingForceDataQuality" href="#DrivingForceDataQuality" coords="125,119,263,175" shape="rect" onclick="openPopup('DrivingForceDataQuality')">
+            <area target="_self" alt="DrivingForceDataExchange" title="DrivingForceDataExchange" href="#DrivingForceDataExchange" coords="124,580,275,641" shape="rect" onclick="openPopup('DrivingForceDataExchange')">
+            <area target="_self" alt="Feedback Evaluation and Redefinition" title="Feedback Evaluation and Redefinition" href="#feedback" coords="456,77,837,102" shape="rect" onclick="openPopup('feedback')">
+            <area target="_self" alt="Data4AI" title="Data4AI" href="#Data4AI" coords="1009,576,1160,632" shape="rect" onclick="openPopup('Data4AI')">
             <area target="_self" alt="The open data Infrastructure layer" title="The open data Infrastructure layer" href="#OpenDataInfrastructure" coords="27,72,1262,702" shape="rect" onclick="openPopup('OpenDataInfrastructure')">
             <area target="_self" alt="The open data ecosystem layer" title="The open data ecosystem layer" href="#OpenDataEcosystem" coords="0,9,1273,718" shape="rect" onclick="openPopup('OpenDataEcosystem')">
+        
         </map>
     </div>
 
     <!-- <div class="container containter-dark">
         <h4 style="text-align: left; margin-left: 50px; margin-top: 50px;">Explaination of open data framework and strategies</h4>
-        <!-- <a href="Open Data Ecosystem Live Map.html" style="text-align: left;"> See all elements</a> -->
-    </div> -->
-
-
+        <a href="Open Data Ecosystem Live Map.html" style="text-align: left;"> See all elements</a> -->
+    </div> 
 
 
     <!-- Pop-up Modals -->
@@ -95,11 +97,32 @@
     </div>
 </div>
 
-<div id="popupDataUsage" class="popup-modal">
+
+<div id="DrivingForceDataQuality" class="popup-modal">
     <div class="popup-content">
-        <span class="close" onclick="closePopup('popupDataUsage')">&times;</span>
-        <h2>Data Usage</h2>
-        <p>This section explains how open data is consumed and used by stakeholders.</p>
+        <span class="close" onclick="closePopup('DrivingForceDataQuality')">&times;</span>
+        <h2>Driving Force: Data Quality</h2>
+        <p>How improvement in quality of data (BOLD) can drive the open data ecosystem and enhence its circularity.</p>
+    </div>
+</div>
+
+
+<div id="DataUsage" class="popup-modal">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup('DataUsage')">&times;</span>
+        <h2>Users stakeholders groups</h2>
+        <p>This section focuses on the stakeholders who use the data for various purposes.</p>
+        <img src="images/OD ecosystem stakeholders.png">
+        <br/>
+    </div>
+</div>
+
+<div id="Data4AI" class="popup-modal">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup('Data4AI')">&times;</span>
+        <h2>Data for Artificial Intelligence</h2>
+        <p>This section focuses on the Artificial Intelligence and its uses for the data.</p>
+        <br/>
     </div>
 </div>
 
@@ -129,17 +152,17 @@
     </div>
 </div>
 
-<div id="NewConceptData4AI" class="popup-modal">
+<div id="ProvisionToUsage" class="popup-modal">
     <div class="popup-content">
-        <span class="close" onclick="closePopup('NewConceptData4AI')">&times;</span>
-        <h2>#Data4AI</h2>
-        <p>Explanation of the new concept: Data for AI.</p>
+        <span class="close" onclick="closePopup('ProvisionToUsage')">&times;</span>
+        <h2>Data Provision to Data Usage</h2>
+        <p>Explanation of data provision to usage: transition</p>
     </div>
 </div>
 
-<div id="DataExchange" class="popup-modal">
+<div id="DrivingForceDataExchange" class="popup-modal">
     <div class="popup-content">
-        <span class="close" onclick="closePopup('DataExchange')">&times;</span>
+        <span class="close" onclick="closePopup('DrivingForceDataExchange')">&times;</span>
         <h2>Data Exchange</h2>
         <p>Details about data exchange processes.</p>
     </div>
