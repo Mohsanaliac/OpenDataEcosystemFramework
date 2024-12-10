@@ -9,13 +9,55 @@ body {
     margin: 20px;
 }
 
-ol > li {
+ol > li,
+ol > li > ol > li {
+  font-weight: bold;
+}
+
+ol > li > ol > li * {
+  font-weight: normal;
+}
+
+ol {
+    list-style-type: none; /* Remove default numbering */
+    counter-reset: section; /* Initialize numbering counter */
+  }
+  
+  ol > li {
+    counter-increment: section; /* Increment section for top-level items */
+  }
+  
+  ol > li::before {
+    content: counters(section, ".") ". "; /* Format as 1. 2. */
     font-weight: bold;
   }
   
-  ol > li * {
-    font-weight: normal;
+  ol > li > ol {
+    counter-reset: subsection; /* Reset subsection numbering */
   }
+  
+  ol > li > ol > li {
+    counter-increment: subsection; /* Increment subsection for second-level items */
+  }
+  
+  ol > li > ol > li::before {
+    content: counters(section, ".") "." counter(subsection) ". "; /* Format as 1.1. */
+    font-weight: bold;
+  }
+  
+  ol > li > ol > li > ol {
+    counter-reset: subsubsection; /* Reset subsubsection numbering */
+  }
+  
+  ol > li > ol > li > ol > li {
+    counter-increment: subsubsection; /* Increment subsubsection for third-level items */
+  }
+  
+  ol > li > ol > li > ol > li::before {
+    content: counters(section, ".") "." counter(subsection) "." counter(subsubsection) ". "; /* Format as 1.1.1. */
+    font-weight: bold;
+  }
+  
 
 img {
     max-width: 100%;
