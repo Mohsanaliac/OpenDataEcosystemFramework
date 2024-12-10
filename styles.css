@@ -9,6 +9,14 @@ body {
     margin: 20px;
 }
 
+ol > li {
+    font-weight: bold;
+  }
+  
+  ol > li * {
+    font-weight: normal;
+  }
+
 img {
     max-width: 100%;
     height: auto;

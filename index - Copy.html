@@ -1,0 +1,2091 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Data Ecosystem</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="bg-dark text-white py-3">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <a style="color: aliceblue; text-decoration: none;" href="index.html"><h1 class="h3" style="color: aliceblue; text-decoration: none;">Open Data Ecosystem Framework</h1></a>
+                <!-- Navigation -->
+                <nav>
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#framework">Framework</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="About.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="Contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div id="top" class="container">
+        <!-- Image and Image Map -->
+        <div class="container containter-dark">
+            <!-- <h4 style="text-align: left;">Open Data Ecosystem Framework and Strategies (Top-Level)</h4> -->
+            <!-- Flashing Banner -->
+        </div>
+        <div class="flashing-banner">
+            Click on each elements to see the second-level details!
+        </div>
+        <div class="container">
+            <img src="images/ECOSYSTEM SCHETCHING.jpg" alt="Open Data Ecosystem" usemap="#image-map" href="framework">
+        </div>
+
+
+        <!-- Image Map -->
+        <map name="image-map">
+            <area target="_self" alt="Data Provision" title="Data Provision" href="#DataProvision" coords="27,311,203,426" shape="rect" onclick="openPopup('popupDataProvision')">
+            <area target="_self" alt="Data Usage" title="Data Usage" href="#DataUsage" coords="1071,313,1260,422" shape="rect" onclick="openPopup('DataUsage')">
+            <area target="_self" alt="Producer's stakeholders groups" title="Producer's stakeholders groups" href="#Producers" coords="365,357,78" shape="circle" onclick="openPopup('Producers')">
+            <area target="_self" alt="Intermediaries" title="Intermediaries" href="#Intermediaries" coords="647,353,78" shape="circle" onclick="openPopup('Intermediaries')">
+            <area target="_self" alt="Users stakeholders" title="Users stakeholders" href="#Users" coords="927,350,76" shape="circle" onclick="openPopup('Users')">
+            <area target="_self" alt="#ProvisionToUsage" title="#ProvisionToUsage" href="#ProvisionToUsage" coords="1158,651,1156,424,1171,422,1172,650" shape="poly" onclick="openPopup('ProvisionToUsage')">
+            <area target="_self" alt="DataExchange" title="DataExchange" href="#DataExchange" coords="114,641,1158,642,115,652,1157,651" shape="poly" onclick="openPopup('DataExchange')">
+            <area target="_self" alt="Open data provision to usage" title="Open data provision to usage" href="#DataExchange" coords="111,426,123,425,119,652,110,650" shape="poly" onclick="openPopup('DataprovisiontoUsage')">
+            <area target="_self" alt="DataProvisionToUsage" title="DataProvisionToUsage" href="#DataProvisionToUsage" coords="114,643,1169,654" shape="rect" onclick="openPopup('DataprovisiontoUsage')">
+            <area target="_self" alt="Value Co Creation Impact and innovation" title="Value Co Creation Impact and innovation" href="#ValueCoCreation" coords="425,619,846,644" shape="rect" onclick="openPopup('ValueCoCreation')">
+            <area target="_self" alt="Collaboration and Network Effect" title="Collaboration and Network Effect" href="#CollaborationNetworkEffect" coords="243,433,1049,480" shape="rect" onclick="openPopup('CollaborationNetworkEffect')">
+            <area target="_self" alt="Value arrow" title="Value arrow" href="#ValueArrow" coords="340,486,390,639" shape="rect" onclick="openPopup('ValueArrow')">
+            <area target="_self" alt="Value arrow2" title="Value arrow" href="#ValueArrow" coords="620,485,673,617" shape="rect" onclick="openPopup('ValueArrow')">
+            <area target="_self" alt="Value arrow3" title="Value arrow" href="#ValueArrow" coords="898,483,946,637" shape="rect" onclick="openPopup('ValueArrow')">
+            <area target="_self" alt="Incentive Arrow" title="Incentive Arrow" href="#IncentiveArrow" coords="338,120,393,269" shape="rect" onclick="openPopup('IncentiveArrow')">
+            <area target="_self" alt="Incentive Arrow1" title="Incentive Arrow" href="#IncentiveArrow" coords="621,116,671,270" shape="rect" onclick="openPopup('IncentiveArrow')">
+            <area target="_self" alt="Incentive Arrow2" title="Incentive Arrow" href="#IncentiveArrow" coords="896,115,945,267" shape="rect" onclick="openPopup('IncentiveArrow')">
+            <area target="_self" alt="Usage to provision" title="Usage to provision" href="#Usagetoprovision" coords="1170,311,1162,312,1160,112,1171,109" shape="poly" onclick="openPopup('Usagetoprovision')">
+            <area target="_self" alt="Usage to provision 1" title="Usage to provision" href="#Usagetoprovision" coords="114,106,1167,105,1164,119,116,115" shape="poly" onclick="openPopup('Usagetoprovision')">
+            <area target="_self" alt="Usage to provision 2" title="Usage to provision" href="#Usagetoprovision" coords="109,107,120,106,123,307,109,309" shape="poly" onclick="openPopup('Usagetoprovision')">
+            <area target="_self" alt="Open Data Ecosystem Drivers" title="Open Data Ecosystem Drivers" href="#OpenDataEcosystemDrivers" coords="127,183,270,306" shape="rect" onclick="openPopup('OpenDataEcosystemDrivers')">
+            <area target="_self" alt="Resources" title="Resources" href="#Resources" coords="210,16,403,58" shape="rect" onclick="openPopup('Resources')">
+            <area target="_self" alt="Enabling Environment" title="Enabling Environment" href="#EnablingEnvironment" coords="423,14,825,60" shape="rect" onclick="openPopup('EnablingEnvironment')">
+            <area target="_self" alt="Governance of open data" title="Governance of open data" href="#Governance" coords="849,16,1015,59" shape="rect" onclick="openPopup('Governance')">
+            <area target="_self" alt="Value of Open data" title="Value of Open data" href="#Value" coords="1033,12,1267,58" shape="rect" onclick="openPopup('Value')">
+            <area target="_self" alt="AI for Data" title="AI for Data" href="#AI4Data" coords="1007,119,1157,172" shape="rect" onclick="openPopup('AI4Data')">
+            <area target="_self" alt="DrivingForceDataQuality" title="DrivingForceDataQuality" href="#DrivingForceDataQuality" coords="125,119,263,175" shape="rect" onclick="openPopup('DrivingForceDataQuality')">
+            <area target="_self" alt="DrivingForceDataExchange" title="DrivingForceDataExchange" href="#DrivingForceDataExchange" coords="124,580,275,641" shape="rect" onclick="openPopup('DrivingForceDataExchange')">
+            <area target="_self" alt="Feedback Evaluation and Redefinition" title="Feedback Evaluation and Redefinition" href="#feedback" coords="456,77,837,102" shape="rect" onclick="openPopup('feedback')">
+            <area target="_self" alt="Data4AI" title="Data4AI" href="#Data4AI" coords="1009,576,1160,632" shape="rect" onclick="openPopup('Data4AI')">
+            <area target="_self" alt="The open data Infrastructure layer" title="The open data Infrastructure layer" href="#OpenDataInfrastructure" coords="27,72,1262,702" shape="rect" onclick="openPopup('OpenDataInfrastructure')">
+            <area target="_self" alt="The open data ecosystem layer" title="The open data ecosystem layer" href="#OpenDataEcosystem" coords="0,9,1273,718" shape="rect" onclick="openPopup('OpenDataEcosystem')">
+        </map>
+    </div>
+
+    <!-- <div class="container containter-dark">
+        <h4 style="text-align: left; margin-left: 50px; margin-top: 50px;">Explaination of open data framework and strategies</h4>
+        <a href="Open Data Ecosystem Live Map.html" style="text-align: left;"> See all elements</a> -->
+    </div> 
+
+
+    <!-- Pop-up Modals -->
+<!-- Pop-up Modals -->
+<div id="popupDataProvision" class="popup-modal">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup('popupDataProvision')">&times;</span>
+        <h2>Data Provision</h2>
+        <ol>
+          <li>Key elements identified
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+
+          <li>Key Strategies proposed
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li></li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+        </ol>
+        <table class="table table-bordered table-striped">
+            <thead class="table-dark">
+              <tr>
+                <th>Drivers (User-driven, Circular, Inclusive, Skill-based)</th>
+                <th>Proposed Strategy/Recommendation</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>User-Driven</td>
+                <td>Adopting standards, requirements, and guidelines to open data technically.</td>
+              </tr>
+              <tr>
+                <td>User-Driven</td>
+                <td>Developing a pipeline to engage the other open data providers as well.</td>
+              </tr>
+              <tr>
+                <td>Circular</td>
+                <td>Adopting thematic classification of datasets from EDP or other classification such as SDGs.</td>
+              </tr>
+              <tr>
+                <td>Inclusive</td>
+                <td>Adopting thematic classification of datasets from EDP or other classification such as SDGs.</td>
+              </tr>
+              <tr>
+                <td>Circular</td>
+                <td>Employing open data standards and formats can streamline data accessibility and sharing within open data ecosystems, enhancing their circularity.</td>
+              </tr>
+              <tr>
+                <td>Circular</td>
+                <td>Follow the big data and cloud computing technologies to make the portal more scalable and improve performance.</td>
+              </tr>
+              <tr>
+                <td>Circular</td>
+                <td> Enhance the data creation process by employing several technical mechanisms and technologies to improve critical aspects of data creation, quality and integration, such as augmenting semantic interoperability with the help of Large Language Models to automate or semi-automate processes that improve it, improving metadata annotation in open data portals using AI, or validating/checking technical compliance of data on the Web.</td>
+              </tr>
+              <tr>
+                <td>User-Driven</td>
+                <td> Enhance the foster improved OD platforms' interface and feedback mechanisms by adopting user-driven design, inclusion of diverse user groups in society and active feedback loops while making use of new technologies wherever this is possible; e.g., Natural Language Processing, Virtual and Augmented Reality, AI, and Chatbots.</td>
+              </tr>
+            </tbody>
+          </table>
+          
+    </div>
+</div>
+
+
+<div id="DrivingForceDataQuality" class="popup-modal">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup('DrivingForceDataQuality')">&times;</span>
+        <h2>Driving Force: Data Quality</h2>
+        <ol>
+          <li>Key elements identified
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+
+          <li>Key Strategies proposed
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li></li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+        </ol>
+        <table class="table table-bordered table-striped">
+            <thead class="table-dark">
+              <tr>
+                <th>Drivers (User-driven, Circular, Inclusive, Skill-based)</th>
+                <th>Proposed Strategy/Recommendation</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>User-Driven</td>
+                    <td>Follow some kind of quality standards and data profiling techniques to achieve the user-needs regarding the data quality and usability.</td>
+                  </tr>
+            </tbody>
+          </table>
+    </div>
+</div>
+
+
+<div id="DataUsage" class="popup-modal">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup('DataUsage')">&times;</span>
+        <h2>Users stakeholders groups</h2>
+        <ol>
+          <li>Key elements identified
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+
+          <li>Key Strategies proposed
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li></li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+        </ol>
+        <table class="table table-bordered table-striped">
+            <thead class="table-dark">
+              <tr>
+                <th>Drivers (User-driven, Circular, Inclusive, Skill-based)</th>
+                <th>Proposed Strategy/Recommendation</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Circular</td>
+                    <td>Enhance data's licensing and anonymisation by employing technological facilitators to achieve this purpose, such as Machine Learning, Data encryption, GenAI, and legal interoperability facilitators.</td>
+                  </tr>
+                  <tr>
+                    <td>Circular</td>
+                    <td>Design OD infrastructures as hubs for creativity, learning, exploration, and knowledge sharing.</td>
+                  </tr>
+                  <tr>
+                    <td>Circular</td>
+                    <td>Focus on value creation and potential contributions showing a rich network of roles and interactions.</td>
+                  </tr>
+                  <tr>
+                    <td>Inclusive</td>
+                    <td>Scope at local problems and build networks of actors and OD flow among them.</td>
+                  </tr>
+                  <tr>
+                    <td>Circular</td>
+                    <td>Visualise OD ecosystems as multi-layer networks mapping.</td>
+                  </tr>
+            </tbody>
+          </table>
+       
+
+
+
+        <p>This section focuses on the stakeholders who use the data for various purposes.</p>
+        <img src="images/OD ecosystem stakeholders.png">
+        <br/>
+    </div>
+</div>
+
+<div id="Data4AI" class="popup-modal">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup('Data4AI')">&times;</span>
+        <h2>Data for Artificial Intelligence</h2>
+        <ol>
+          <li>Key elements identified
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+
+          <li>Key Strategies proposed
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li></li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+        </ol>
+        <br/>
+    </div>
+</div>
+
+<div id="Producers" class="popup-modal">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup('Producers')">&times;</span>
+        <h2>Producer's stakeholders Groups</h2>
+            <p>This section highlights the groups responsible for producing data in the ecosystem.</p>
+            To understand this concept, read the ODECO-Deliverable D2.1 Open data user needs: seven flavours; this deliverable explains in detail the open data producers.
+            <a href="https://odeco-research.eu/wp-content/uploads/2023/06/ODECO-D2.1-Open-data-user-needs-seven-flavours_Final.pdf">Link to deliverable</a><br>
+            <ol>
+              <li>Key elements identified
+                <ol>
+                  <li>Inclusive
+                    <ol>
+                      <li>….</li>
+                    </ol>
+                  </li>
+                  <li>Circular
+                    <ol>
+                      <li>...</li>
+                    </ol>
+                  </li>
+                  <li>user-driven
+                    <ol>
+                      <li>….</li>
+                    </ol>
+                  </li>
+                  <li>Skill-based
+                    <ol>
+                      <li>...</li>
+                    </ol>
+                  </li>
+                </ol>
+              </li>
+    
+              <li>Key Strategies proposed
+                <ol>
+                  <li>Inclusive
+                    <ol>
+                      <li>….</li>
+                    </ol>
+                  </li>
+                  <li>Circular
+                    <ol>
+                      <li></li>
+                    </ol>
+                  </li>
+                  <li>user-driven
+                    <ol>
+                      <li>….</li>
+                    </ol>
+                  </li>
+                  <li>Skill-based
+                    <ol>
+                      <li>...</li>
+                    </ol>
+                  </li>
+                </ol>
+              </li>
+            </ol>
+    </div>
+</div>
+
+<div id="Intermediaries" class="popup-modal">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup('Intermediaries')">&times;</span>
+        <h2>Intermediaries</h2>
+        <ol>
+          <li>Key elements identified
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+
+          <li>Key Strategies proposed
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li></li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+        </ol>
+    </div>
+</div>
+
+<div id="Users" class="popup-modal">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup('Users')">&times;</span>
+        <h2>User Stakeholders</h2>
+        <ol>
+          <li>Key elements identified
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+
+          <li>Key Strategies proposed
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li></li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+        </ol>
+    </div>
+</div>
+
+<div id="ProvisionToUsage" class="popup-modal">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup('ProvisionToUsage')">&times;</span>
+        <h2>Data Provision to Data Usage</h2>
+        <ol>
+          <li>Key elements identified
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+
+          <li>Key Strategies proposed
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li></li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+        </ol>
+    </div>
+</div>
+
+<div id="DrivingForceDataExchange" class="popup-modal">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup('DrivingForceDataExchange')">&times;</span>
+        <h2>Data Exchange</h2>
+        <ol>
+          <li>Key elements identified
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+
+          <li>Key Strategies proposed
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li></li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+        </ol>
+    </div>
+</div>
+
+<div id="DataprovisiontoUsage" class="popup-modal">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup('DataprovisiontoUsage')">&times;</span>
+        <h2>Open Data Provision to Usage</h2>
+        <ol>
+          <li>Key elements identified
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+
+          <li>Key Strategies proposed
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li></li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+        </ol>
+    </div>
+</div>
+
+<div id="ValueCoCreation" class="popup-modal">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup('ValueCoCreation')">&times;</span>
+        <h2>Value Co-Creation, Impact, and Innovation</h2>
+        <ol>
+          <li>Key elements identified
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+
+          <li>Key Strategies proposed
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li></li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+        </ol>
+    </div>
+</div>
+
+<div id="CollaborationNetworkEffect" class="popup-modal">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup('CollaborationNetworkEffect')">&times;</span>
+        <h2>Collaboration and Network Effect</h2>
+        <ol>
+          <li>Key elements identified
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+
+          <li>Key Strategies proposed
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li></li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+        </ol>
+        
+        <table class="table table-bordered table-striped">
+            <thead class="table-dark">
+              <tr>
+                <th>Drivers (User-driven, Circular, Inclusive, Skill-based)</th>
+                <th>Proposed Strategy/Recommendation</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Inclusive</td>
+                <td>Analyse the barriers, motivations, and technical requirements for non-government data holder groups to share their data and propose technical mechanisms to enable/facilitate this purpose.</td>
+              </tr>
+              <tr>
+                <td>Inclusive</td>
+                <td>Apply strategies to incentivize and facilitate the collaboration of domain experts and data experts.</td>
+              </tr>
+              <tr>
+                <td>Inclusive</td>
+                <td>Create shared goals and values among diverse stakeholders within an open data ecosystem. This ensures cohesive collaboration and maximizes the ecosystem’s ability to deliver value across its users, contributors, and beneficiaries.</td>
+              </tr>
+            </tbody>
+          </table>
+          
+    </div>
+</div>
+
+<div id="ValueArrow" class="popup-modal">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup('ValueArrow')">&times;</span>
+        <h2>Value Arrows</h2>
+        <ol>
+          <li>Key elements identified
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+
+          <li>Key Strategies proposed
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li></li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+        </ol>
+        <table class="table table-bordered table-striped">
+            <thead class="table-dark">
+              <tr>
+                <th>Drivers (User-driven, Circular, Inclusive, Skill-based)</th>
+                <th>Proposed Strategy/Recommendation</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Inclusive</td>
+                <td>Create shared goals and values among diverse stakeholders within an open data ecosystem. This ensures cohesive collaboration and maximizes the ecosystem’s ability to deliver value across its users, contributors, and beneficiaries.</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+</div>
+
+<div id="IncentiveArrow" class="popup-modal">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup('IncentiveArrow')">&times;</span>
+        <h2>Incentive Arrows</h2>
+        <ol>
+          <li>Key elements identified
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+
+          <li>Key Strategies proposed
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li></li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+        </ol>
+        <table class="table table-bordered table-striped">
+            <thead class="table-dark">
+              <tr>
+                <th>Drivers (User-driven, Circular, Inclusive, Skill-based)</th>
+                <th>Proposed Strategy/Recommendation</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Circular</td>
+                <td>Key enablers to contribute data to the ODE were identified, that relate to the motivations and barriers found by users.</td>
+              </tr>
+              <tr>
+                <td>User-Driven</td>
+                <td>Willingness on part of public administrations to engage in formal and informal partnerships with other civic actor groups.</td>
+              </tr>
+              <tr>
+                <td>Circular</td>
+                <td>Partnerships can encourage non-government data holders to contribute open data, in addition to being users of open data.</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+</div>
+
+<div id="Usagetoprovision" class="popup-modal">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup('Usagetoprovision')">&times;</span>
+        <h2>Usage to Provision</h2>
+        <ol>
+          <li>Key elements identified
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+
+          <li>Key Strategies proposed
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li></li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+        </ol>
+    </div>
+</div>
+
+<div id="OpenDataEcosystemDrivers" class="popup-modal">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup('OpenDataEcosystemDrivers')">&times;</span>
+        <h2>Open Data Ecosystem Drivers</h2>
+        <ol>
+          <li>Key elements identified
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+
+          <li>Key Strategies proposed
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li></li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+        </ol>
+            <p>Understanding the key drivers that propel the open data ecosystem forward.</p>
+            <img src="images/OD ecosystem drivers.png">
+            <br/>
+            <b>User-Driven</b>
+            <P style="text-align: justify;">Most existing OD systems are neither user-driven nor balance demand-supply matching. Although users' role is assumed to be critical for the success of OD ecosystems, suppliers drive current ecosys-tems (Gascó-Hernández et al., 2018; Sieber & Johnson, 2015; Van Loenen, 2018; Crusoe et al., 2019). This means that provisioning data from governments to end users is often made through a one-way data portal or platform (Evans & Campos, 2013) without differentiating between various types of users (including cross-border users) or providing data in the way that the data supplier perceives as satisfying (see European Commission, 2020c). Even more, the published data may have no value or are not directly usable (Rhind, 2014). OD providers do not close (enable) the feedback loop – a mech-anism for demand-supply matching – and hence are unaware of the actual use and users of their data, and what data and in what form the users need the data to create value (Harrison et al., 2012;
+                Susha, 2015). That is, they only know that opening datasets increases “usage numbers”, i.e. number of downloads (van Loenen et al, 2018).
+            </P>
+            <b>Circular</b>
+            <P style="text-align: justify;">Existing OD systems are often linear. In linear OD ecosystems, OD users typically capture value without adding value to the system themselves. At the moment, only very few stakeholders in the ecosystem profit from OD, and usually, the ones who profit are not the ones who invested most effort, time, and money (Pollock, 2011; Welle Donker & Van Loenen, 2018). As a result of this unfair distribution of value in the OD ecosystem, stakeholders may be reluctant to participate. An OD eco-system is circular (BSI Group, no year) when data is opened by data providers and then processed so that intermediaries, value-adding resellers, and enrichers can keep processed data in use for as long as possible. Users extract the maximum value from derived data/services. Finally, closing the cycle, stakeholders provide additional value to the ecosystem (Alexopoulos et al., 2014). For exam-ple, they can deliver value-added products based on the OD or evaluate data usage processes with data providers (Charalabidis, 2016). The necessary type of ecosystem is circular in nature, building upon a complex network of value generated by different participants that are creating valuable in-formation and products and services. However, note that a circle that is too small can harm circular OD systems because prosumers are then focused on serving data to themselves.</P>
+            <b>Inclusive</b>
+            <P style="text-align: justify;">Many current OD systems are exclusive. Research and practice mainly focus on a minimal selec-tion of OD providers and user groups, namely governments as data providers and companies as OD re-users. At the same time, many more stakeholders exist (Van Loenen et al., 2018). Consequently, government data and non-government data (e.g., from businesses, citizens, researchers, and others) are often not integrated and do not cross borders. Moreover, not all stakeholders (e.g., data provid-ers, intermediaries, value-adding resellers, enrichers, facilitators, end-users) from any nature (com-mercial, government, scientific, citizen) participate in OD ecosystem processes (eu2020.de, 2020; Eu-ropean Commission 2020).</P>
+            <b>Skill-based</b>
+            <P style="text-align: justify;">Existing OD systems usually depend on best effort. There is a lack of skilled people to use OD. Re-search indicates that many businesses and governments do not have the knowledge and skills to decide on and implement effective strategies of making the best use of their data (Barbero et al., 2018; Davies et al., 2019). This is already reflected in the digital gap within the EU public administra-tions and the significant variations in the quality of digital public services and which is heavily in-fluenced by the discrepancies in digital skills and competences (Chinn et al., 2020; European Union, 2020). There are currently not enough people who have the right data skills (European Commission, 2020b; IDC & Open Evidence, 2017). This problem is likely to get even worse in the future (Deloitte, 2017). Despite the relevance of soft skills (Laker and Powell, 2011) when considering technological changes (Snape, 2017), the skills required are a higher education degree in economics, mathematics, physics, or other relevant scientific disciplines, plus familiarity with the industry concerned (Econ-omist Intelligence Unit, 2012). The combination of all these skills is difficult to obtain (Deloitte, 2017).</P>
+    </div>
+</div>
+
+<div id="Resources" class="popup-modal">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup('Resources')">&times;</span>
+        <h2>Resources</h2>
+        <ol>
+          <li>Key elements identified
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+
+          <li>Key Strategies proposed
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li></li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+        </ol>
+        <table class="table table-bordered table-striped">
+            <thead class="table-dark">
+              <tr>
+                <th>Drivers (User-driven, Circular, Inclusive, Skill-based)</th>
+                <th>Proposed Strategy/Recommendation</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Circular</td>
+                <td>Employing open data standards and formats can streamline data accessibility and sharing within open data ecosystems, enhancing their circularity.</td>
+              </tr>
+              <tr>
+                <td>Circular</td>
+                <td>Follow the big data and cloud computing technologies to make the portal more scalable and improve performance.</td>
+              </tr>
+            </tbody>
+          </table>
+          
+    </div>
+</div>
+
+<div id="EnablingEnvironment" class="popup-modal">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup('EnablingEnvironment')">&times;</span>
+        <h2>Enabling Environment</h2>
+        <ol>
+          <li>Key elements identified
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+
+          <li>Key Strategies proposed
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li></li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+        </ol>
+        <table class="table table-bordered table-striped">
+            <thead class="table-dark">
+              <tr>
+                <th>Drivers (User-driven, Circular, Inclusive, Skill-based)</th>
+                <th>Proposed Strategy/Recommendation</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Inclusive</td>
+                <td>Open data events should be designed to be accessible by non-specialist users.</td>
+              </tr>
+              <tr>
+                <td>Inclusive</td>
+                <td>The public administration should institutionalize and support open data events.</td>
+              </tr>
+              <tr>
+                <td>Inclusive</td>
+                <td>The EU’s Implementing Regulation on High-Value Datasets (2023/138), while fostering innovation by prioritizing economically valuable datasets, needs to be applied more equitably. Equitable implementation could involve expanding dataset categories to include social data, ensuring that open data serves not only economic growth but also societal needs and inclusivity.</td>
+              </tr>
+              <tr>
+                <td>Inclusive</td>
+                <td>Legal institutions should ensure commercial actors in open data initiatives prioritize the public interest. Courts can establish guidelines for open data intermediaries, and public procurement frameworks can require private service providers to share data generated during public service delivery in open formats, as seen in Barcelona's “data sovereignty clauses.”</td>
+              </tr>
+              <tr>
+                <td>Inclusive</td>
+                <td>Private law instruments, such as open licenses, can promote equitable value creation in the open data ecosystem by addressing power imbalances and fostering ethical data sharing. For instance, the University of Pretoria’s Data Science Law Lab developed a license to counter data extractivism.</td>
+              </tr>
+              <tr>
+                <td>User-Driven</td>
+                <td>Actors should be knowledgeable of the purposes and practices that can be affected through open data.</td>
+              </tr>
+              <tr>
+                <td>User-Driven</td>
+                <td>To ensure sustainability of open data ecosystems, different types of funding models (public funding, private funding, etc.) should be considered.</td>
+              </tr>
+              <tr>
+                <td>User-Driven</td>
+                <td>Cultivating strong organisational cultures oriented towards open data</td>
+              </tr>
+              <tr>
+                <td>Circular</td>
+                <td> (Culture) - Enhance the data creation process by employing several technical mechanisms and technologies to improve critical aspects of data creation, quality and integration, such as augmenting semantic interoperability with the help of Large Language Models to automate or semi-automate processes that improve it, improving metadata annotation in open data portals using AI, or validating/checking technical compliance of data on the Web.</td>
+              </tr>
+              <tr>
+                <td>User-Driven</td>
+                <td> Enhance the foster improved OD platforms' interface and feedback mechanisms by adopting user-driven design, inclusion of diverse user groups in society and active feedback loops while making use of new technologies wherever this is possible; e.g., Natural Language Processing, Virtual and Augmented Reality, AI, and Chatbots.</td>
+              </tr>
+
+              <tr>
+                <td>User-Driven</td>
+                <td> Use of open licenses should be encouraged</td>
+              </tr>
+              <tr>
+                <td>Inclusive </td>
+                <td> (Regulation) - Continued implementation of legal mandates for open government data. </td>
+              </tr>
+              <td>Circular</td>
+              <td>Enhance data's licensing and anonymisation by employing technological facilitators to achieve this purpose, such as Machine Learning, Data encryption, GenAI, and legal interoperability facilitators.</td>
+            </tr>
+            <tr>
+              <td>Circular</td>
+              <td>Design OD infrastructures as hubs for creativity, learning, exploration, and knowledge sharing.</td>
+            </tr>
+            <tr>
+              <td>Circular</td>
+              <td>Focus on value creation and potential contributions showing a rich network of roles and interactions.</td>
+            </tr>
+            <tr>
+              <td>Inclusive</td>
+              <td>Scope at local problems and build networks of actors and OD flow among them.</td>
+            </tr>
+            <tr>
+              <td>Circular</td>
+              <td>Visualise OD ecosystems as multi-layer networks mapping.</td>
+            </tr>
+            <tr>
+                <td>User-Driven</td>
+                <td>Willingness on part of public administrations to engage in formal and informal partnerships with other civic actor groups.</td>
+              </tr>
+              <tr>
+                <td>Circular</td>
+                <td>Partnerships can encourage non-government data holders to contribute open data, in addition to being users of open data.</td>
+              </tr>
+            </tbody>
+          </table>
+          
+    </div>
+</div>
+
+<div id="Governance" class="popup-modal">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup('Governance')">&times;</span>
+        <h2>Governance of Open Data</h2>
+        <ol>
+          <li>Key elements identified
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+
+          <li>Key Strategies proposed
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li></li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+        </ol>
+        <table class="table table-bordered table-striped">
+            <thead class="table-dark">
+              <tr>
+                <th>Drivers (User-driven, Circular, Inclusive, Skill-based)</th>
+                <th>Proposed Strategy/Recommendation</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>User-Driven</td>
+                <td>Coordinating functions to be discharged by governmental actors. With the right incentives, such functions can be discharged by non-governmental actors as well.</td>
+              </tr>
+              <tr>
+                <td>User-Driven</td>
+                <td>Powerful actors and organizations should ensure that less-powered, less-represented, and disadvantaged actors and organizations are encouraged to provide feedback and even actively contribute.</td>
+              </tr>
+              <tr>
+                <td>User-Driven</td>
+                <td>Willingness on part of public administrations to engage in formal and informal partnerships with other civic actor groups.</td>
+              </tr>
+              <tr>
+                <td>Circular</td>
+                <td>Partnerships can encourage non-government data holders to contribute open data, in addition to being users of open data.</td>
+              </tr>
+            </tbody>
+          </table>
+          
+    </div>
+</div>
+
+<div id="Value" class="popup-modal">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup('Value')">&times;</span>
+        <h2>Value of Open Data</h2>
+        <ol>
+          <li>Key elements identified
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+
+          <li>Key Strategies proposed
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li></li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+        </ol>
+        <table class="table table-bordered table-striped">
+            <thead class="table-dark">
+              <tr>
+                <th>Drivers (User-driven, Circular, Inclusive, Skill-based)</th>
+                <th>Proposed Strategy/Recommendation</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>User-Driven</td>
+                <td>need to build my skillset in the field of data visualisation and build capacity regarding data issues (fragmentation, aggregated data, unreliable data, and sensitive data).</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+</div>
+
+<div id="AI4Data" class="popup-modal">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup('AI4Data')">&times;</span>
+        <h2>AI for Data</h2>
+        <ol>
+          <li>Key elements identified
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+
+          <li>Key Strategies proposed
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li></li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+        </ol>
+        <table class="table table-bordered table-striped">
+            <thead class="table-dark">
+              <tr>
+                <th>Drivers (User-driven, Circular, Inclusive, Skill-based)</th>
+                <th>Proposed Strategy/Recommendation</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Circular</td>
+                    <td>Enhance the data creation process by employing several technical mechanisms and technologies to improve critical aspects of data creation, quality and integration, such as augmenting semantic interoperability with the help of Large Language Models to automate or semi-automate processes that improve it, improving metadata annotation in open data portals using AI, or validating/checking technical compliance of data on the Web.</td>
+                  </tr>
+            </tbody>
+          </table>
+
+
+    </div>
+</div>
+
+<div id="DATAExchange2" class="popup-modal">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup('DATAExchange2')">&times;</span>
+        <h2>Data Exchange 2</h2>
+        <ol>
+          <li>Key elements identified
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+
+          <li>Key Strategies proposed
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li></li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+        </ol>
+    </div>
+</div>
+
+<div id="feedback" class="popup-modal">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup('feedback')">&times;</span>
+        <h2>Feedback Evaluation and Redefinition</h2>
+        <ol>
+          <li>Key elements identified
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+
+          <li>Key Strategies proposed
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li></li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+        </ol>
+    </div>
+</div>
+
+<div id="OpenDataInfrastructure" class="popup-modal">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup('OpenDataInfrastructure')">&times;</span>
+        <h2>The Open Data Infrastructure Layer</h2>
+        <ol>
+          <li>Key elements identified
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+
+          <li>Key Strategies proposed
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li></li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+        </ol>
+        <table class="table table-bordered table-striped">
+            <thead class="table-dark">
+              <tr>
+                <th>Drivers (User-driven, Circular, Inclusive, Skill-based)</th>
+                <th>Proposed Strategy/Recommendation</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Inclusive</td>
+                <td>Public financing and maintenance of shared open infrastructures, like the European Open Science Cloud</td>
+              </tr>
+              <tr>
+                <td>Skill-based</td>
+                <td>Create and distribute low-code tools for data analysis. Offer training to educators and intermediaries on using these platforms.</td>
+              </tr>
+              <tr>
+                <td>Circular</td>
+                <td>Boundary objects are essential for fostering inclusivity, enhancing collaboration, and bridging gaps between stakeholders such as governments, NGOs, businesses, and individual citizens.</td>
+              </tr>
+              <tr>
+                <td>Inclusive</td>
+                <td>Community-centric design prioritizes the needs, preferences, and involvement of communities in the open data ecosystem.</td>
+              </tr>
+              <tr>
+                <td>User-Driven</td>
+                <td>The data should be findable to a wide range of users with diverse searching options.</td>
+              </tr>
+              <tr>
+                <td>User-Driven</td>
+                <td>The FAIR Principles should be applied to achieve the user-driven open data ecosystem.</td>
+              </tr>
+              <tr>
+                <td>User-Driven</td>
+                <td>Open Data ecosystem should facilitate the integration of open data from cross-domains (government, non-government, NGOs).</td>
+              </tr>
+              <tr>
+                <td>User-Driven</td>
+                <td>Use open standards, open formats available to engage the users with diverse needs. Some users require data in bulk, others require APIs, and others require Linked Open Data.</td>
+              </tr>
+              <tr>
+                <td>User-Driven</td>
+                <td>Develop a standardized open data portal interface to make the data publication process easier.</td>
+              </tr>
+              <tr>
+                <td>User-Driven</td>
+                <td>Use/develop tools to anonymize the open data.</td>
+              </tr>
+              <tr>
+                <td>User-Driven</td>
+                <td>Introduce tools for unified view of data and physically impaired user groups.</td>
+              </tr>
+              <tr>
+                <td>User-Driven</td>
+                <td>Seek guidance and infrastructure from the already developed portals from other countries, areas, regions to develop your own.</td>
+              </tr>
+              <tr>
+                <td>User-Driven</td>
+                <td>Open Data community portal development helps in the identification of issues with data, the possible use of data, and future improvements.</td>
+              </tr>
+              <tr>
+                <td>User-Driven</td>
+                <td>Facilitate better data exploration and comprehension by including interactive visualization tools.</td>
+              </tr>
+              <tr>
+                <td>Circular</td>
+                <td>Focus should be put on different types of interoperability and data portability.</td>
+              </tr>
+              <tr>
+                <td>Circular</td>
+                <td>Employing open data standards and formats can streamline data accessibility and sharing within open data ecosystems, enhancing their circularity.</td>
+              </tr>
+              <tr>
+                <td>Circular</td>
+                <td>Follow the big data and cloud computing technologies to make the portal more scalable and improve performance.</td>
+              </tr>
+              <tr>
+                <td>Circular</td>
+                <td> (Culture) - Enhance the data creation process by employing several technical mechanisms and technologies to improve critical aspects of data creation, quality and integration, such as augmenting semantic interoperability with the help of Large Language Models to automate or semi-automate processes that improve it, improving metadata annotation in open data portals using AI, or validating/checking technical compliance of data on the Web.</td>
+              </tr>
+              <tr>
+                <td>User-Driven</td>
+                <td> Enhance the foster improved OD platforms' interface and feedback mechanisms by adopting user-driven design, inclusion of diverse user groups in society and active feedback loops while making use of new technologies wherever this is possible; e.g., Natural Language Processing, Virtual and Augmented Reality, AI, and Chatbots.</td>
+              </tr>
+              <tr>
+                <td>Circular</td>
+                <td>Enhance data's licensing and anonymisation by employing technological facilitators to achieve this purpose, such as Machine Learning, Data encryption, GenAI, and legal interoperability facilitators.</td>
+              </tr>
+              <tr>
+                <td>Circular</td>
+                <td>Design OD infrastructures as hubs for creativity, learning, exploration, and knowledge sharing.</td>
+              </tr>
+              <tr>
+                <td>Circular</td>
+                <td>Focus on value creation and potential contributions showing a rich network of roles and interactions.</td>
+              </tr>
+              <tr>
+                <td>Inclusive</td>
+                <td>Scope at local problems and build networks of actors and OD flow among them.</td>
+              </tr>
+              <tr>
+                <td>Circular</td>
+                <td>Visualise OD ecosystems as multi-layer networks mapping.</td>
+              </tr>
+            </tbody>
+          </table>
+          
+    </div>
+</div>
+
+<div id="OpenDataEcosystem" class="popup-modal">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup('OpenDataEcosystem')">&times;</span>
+        <h2>The Open Data Ecosystem</h2>
+        <ol>
+          <li>Key elements identified
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+
+          <li>Key Strategies proposed
+            <ol>
+              <li>Inclusive
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Circular
+                <ol>
+                  <li></li>
+                </ol>
+              </li>
+              <li>user-driven
+                <ol>
+                  <li>….</li>
+                </ol>
+              </li>
+              <li>Skill-based
+                <ol>
+                  <li>...</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+        </ol>
+        <table class="table table-bordered table-striped">
+            <thead class="table-dark">
+              <tr>
+                <th>Drivers (User-driven, Circular, Inclusive, Skill-based)</th>
+                <th>Proposed Strategy/Recommendation</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Circular</td>
+                <td>Commitments to provide continuous and adequate funding for maintaining and developing open data infrastructure and support ought to be institutionalized, for example, through supranational, national, or local laws. Conversely, open data has to be considered as an infrastructure (like roads, clean water, etc.) and be accounted for in the tax policy design that, at the same time, does not disincentivize companies from continuing to use open data.</td>
+              </tr>
+              <tr>
+                <td>Circular</td>
+                <td>Some restructuring, streamlining, and coordination of open data management and provision may be necessary within and across government agencies to save (transaction) costs as open data providers further. It may also be worth coordinating with other agencies to implement contractual obligations with third-party vendors that collect data through their government-funded projects to give such data to the government free of charge.</td>
+              </tr>
+              <tr>
+                <td>Circular</td>
+                <td>One possible way to recuperate some of the costs of providing open data is for government agencies to also provide value-added services based on open data at fees. This involves revisiting, clarifying, and potentially amending existing laws related to government-market roles and competition.</td>
+              </tr>
+              <tr>
+                <td>Circular</td>
+                <td>Government agencies should be obligated to use open data whenever it is available and to inform open data providers of any errors in the data. This saves costs for them as open data users as well as for open data providers in ensuring data quality.</td>
+              </tr>
+              <tr>
+                <td>Circular</td>
+                <td>Tax incentives may be worth considering to entice companies and citizens to contribute to open data initiatives as funders or data providers. The case of the Wikimedia Foundation and OpenStreetMap Foundation being granted tax-deductible status in some countries is a good example to consider for other open data initiatives.</td>
+              </tr>
+              <tr>
+                <td>Circular</td>
+                <td>Governments should recognize that they are no longer the only open data providers. They should consider supporting citizen-generated or crowdsourced open data projects, such as OpenStreetMap, by financially supporting or contributing their own data to these projects.</td>
+              </tr>
+              <tr>
+                <td>Circular</td>
+                <td>A purpose-driven approach, rather than a user-driven one, can enhance open data ecosystems to better reflect the understanding of social value, focusing on responsible data usage while advancing societal benefits, such as improved healthcare and environmental sustainability.</td>
+              </tr>
+              <tr>
+                <td>Inclusive</td>
+                <td>In terms of practical implementation, legal frameworks for open data initiatives could refer to CARE principles in addition to the FAIR principles for data quality management. CARE Principles also focus on realizing collective benefits from open datasets and ensuring commitment to ethics.</td>
+              </tr>
+              <tr>
+                <td>User-Driven</td>
+                <td>Awareness is needed on the socio-technical conditions in which interactions between actors take place.</td>
+              </tr>
+            </tbody>
+          </table>
+          
+        
+
+        
+        
+        
+        
+        <p>The European Commission foresees a critical role for OD ecosystems, which facilitate re-use of pub-lic sector information as well as privately-held data (European Commission, 2018, p. 5) and “the deployment of a fully-fledged open data infrastructure” (European Commission, 2018, p. 7). In gen-eral terms, Nardi and O’Day (1999) define an ecosystem as “a system of people, practices, values,
+            JeDEM Issue: 13(2): 1-27, 2021 Bastiaan van Loenen et al.
+            4 Creative Commons Attribution 3.0 Austria (CC BY 3.0), 2021.
+            and technologies in a particular local environment”. Ecosystems comprise various intercommuni-cating, relatively closely related, and strongly interdependent components. Nevertheless, ecosys-tems differ regarding their specific features.
+            In 2011, Pollock (2011) coined the concept of the OD ecosystem. Pollock reasoned that traditional OD systems, where data flows from data providers to data users only, should be transformed into ecosystems. In such ecosystems, available data is cycled and recycled among data providers and users. 
+            Intermediaries, i.e., actors in-between data providers and users, are essential to OD ecosys-tems because they form a bridge between the actors and create additional value. OD ecosystems should stimulate collaboration around data value creation and provide reusable components.
+            Pollock’s work was followed by other approaches (Ubaldi, 2013), often in an OGD context (see, for example, Dawes et al., 2016; ; Ubaldi, 2013; Harrison et al., 2012). 
+            Several scholars framed OD eco-systems relatively technically by pointing at how OD supply can be optimized to support that data's use (Zuiderwijk et al., 2014). 
+            Others reason that OD ecosystems consist of “an active network, facil-itating interaction and communication amongst everybody interested and/or involved in OD and the re-use of information and data, internal, as well as external to the organisation” (Share-PSI 2.0, 2016, p. 1). 
+            OD ecosystems can be realized at diverging levels, such as the data providers and data user level, or between them at the intermediaries level (Jetzek, 2017; Ubaldi, 2013). 
+            Furthermore, the scale of OD ecosystems may vary: within institutions, countries, regions, worldwide, as well as within different disciplines and domains (see Zuiderwijk, 2015). 
+            Moreover, Kapoor et al. (2015) sug-gest that an OD ecosystem includes various activities and Mulder et al. (2019) expand the under-standing of a data ecosystem to include its actors and the political and organizational infrastructures promoting or participating in those activities. 
+            They also provide a general and theoretical framing to qualify the creation of an ecosystem that could activate OD as a public resource, which is a foun-dation for more inclusive, and profitable use of OD.
+        </p>
+    </div>
+</div>
+
+
+
+
+
+ <!-- Footer -->
+ <footer class="bg-dark text-white mt-5 py-4">
+    <div class="container">
+        <div class="row">
+            <!-- About Section -->
+            <div class="col-md-4">
+                <h5>About Us</h5>
+                <p>ODECO - Towards a sustainable Open Data ECOsystem.</p>
+            </div>
+            <!-- Quick Links -->
+            <div class="col-md-4">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white text-decoration-none">Home</a></li>
+                    <li><a href="About.html" class="text-white text-decoration-none">About</a></li>
+                    <li><a href="Contact.html" class="text-white text-decoration-none">Contact</a></li>
+                </ul>
+            </div>
+            <!-- Contact Section -->
+            <div class="col-md-4">
+                <h5>Contact Us</h5>
+                <p>Email: Mohsan@aegean.gr</p>
+                <p>Phone: +30 698 668 3130</p>
+                <p>Address: ICSD, University of the Aegeanm, Samos, Greece</p>
+            </div>
+        </div>
+        <!-- Footer Bottom -->
+        <div class="text-center mt-3">
+            <p class="mb-0">&copy; 2024 ODECO. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</body>
+</html>
